@@ -7,7 +7,7 @@ import edu.grinnell.csc207.linear.ReportingLinearStructure;
  * A very simple experiment with ArrayBasedQueues.
  *
  * @author Samuel A. Rebelsky
- * @author Your Name Here
+ * @author Tiffany Tang
  */
 public class ArrayBasedQueueExperiment {
   /**
@@ -24,6 +24,7 @@ public class ArrayBasedQueueExperiment {
     expt.peek();
     expt.put("c");
     expt.peek();
+    expt.put("d");
     expt.get();
     expt.peek();
     expt.get();
